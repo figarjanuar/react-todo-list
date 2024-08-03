@@ -16,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       domain="https://gartest.kinde.com"
       redirectUri={url}
       logoutUri={url}
+      isDangerouslyUseLocalStorage={true}
     >
       <TodosContextProvider>
         <App />
